@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="landing" class="landing-page">
+        <div class="intro">
+            <h1>MOH AGUNG BUDI PRASETYO</h1>
+            <button onclick="scrollToSection()">Lihat Selengkapnya</button>
+        </div>
+        <div class="image-container">
+            <img src="fto/1.jpeg" alt="Profile Picture">
+        </div>
+    </section>
+
+    <section id="about" class="about-page">
+        <div class="about-me">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah Seorang Mahasiswa semester 5 yang mengambil prodi Teknik Informatika di Universitas Kanjuruhan Malang. Seorang yang teliti dan terampil mengoperasikan berbagai platform IT.
+Memiliki kemampuan komunikasi lisan dan verbal yang baik, serta mampu memaparkan isu-isu software yang kompleks dalam istilah yang mudah dipahami.</p>
+        </div>
+
+        <div class="skills">
+            <h2>Skill</h2>
+            <div class="skill-bar">
+                <span>Java</span>
+                <div class="bar"><div class="progress" style="width: 40%;"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>HTML</span>
+                <div class="bar"><div class="progress" style="width: 75%;"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>CSS</span>
+                <div class="bar"><div class="progress" style="width: 60%;"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>Python</span>
+                <div class="bar"><div class="progress" style="width: 70%;"></div></div>
+            </div>
+        </div>
+
+        <div class="education">
+            <h2>Pendidikan</h2>
+            <p>SMKN 2 TUREN, TEKNIK KOMPUTER JARINGAN (2014-2017)</p>
+            <p>Universitas Kanjuruhan Malang, TEKNIK INFORMATIKA (2022-Sekarang)</p>
+        </div>
+
+        <div class="education">
+            <h2>Pengalaman Kerja</h2>
+            <p>Teknisi Elevator dan Escalator (2018-2020)</p>
+        </div>
+
+        <div class="skills"></div>
+            <h2>Kemampuan Bahasa</h2>
+            <div class="skill-bar">
+                <span>Bahasa Indonesia</span>
+                <div class="bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>Bahasa Inggris</span>
+                <div class="bar"><div class="progress" style="width: 55%;"></div></div>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <h2>Social Media</h2>
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <script>
+        function scrollToSection() {
+            document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+</body>
+</html>
